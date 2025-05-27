@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // 调用豆包API分析数学问题
+    // 调用豆包API分析试题
     async function analyzeMathProblem(apiKey, imageData) {
         // 确保图片是JPEG格式
         let base64Image;
@@ -192,7 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     content: [
                         {
                             type: 'text',
-                            text: '这是一道数学题，请帮我解答，并用LaTeX格式表示数学公式。请给出详细的解题步骤和思路。'
+                            text: '这是一道理科题，请帮我解答，并用LaTeX格式表示理科公式。请给出详细的解题步骤和思路。'
                         },
                         {
                             type: 'image_url',
